@@ -77,7 +77,7 @@ DeepFM原始的结构(add)效果很差，做了点改变，从直接加和变成
 
 NFM做了很多变种尝试，发现concat二阶交互向量效果最好
 
-从结果上来看一阶线性连接没有带来明显提升（W&D相对于FNN，DeepFM(weight)相对于DeepFM(weight+first_order)）
+从结果上来看一阶线性连接没有带来明显提升（W&D相对于FNN，DeepFM(weight)相对于DeepFM(weight+first_order)，NFM(concat(multiply))相对于NFM(conat(multiply)+first_order)）
 
 DCN的cross部分的线性连接没有带来明显提升（相对于FNN）
 
@@ -85,7 +85,7 @@ DCN的cross部分的线性连接没有带来明显提升（相对于FNN）
 ```
 关于NFFM:
 ```
-NFFM参数量是NFM的field_size(39)倍，训练速度慢而且容易OOM，做以下两种优化,4千万样本约3个半小时跑完
+NFFM参数量是NFM的field_size(39)倍，训练速度慢而且容易OOM，做以下两种优化，4千万样本约3个半小时跑完
 
 参数量减少：连续型特征和离散型特征不交叉
 
