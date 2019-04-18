@@ -4,7 +4,7 @@
 ## 模型
 LR
 
-DNN
+FNN
 
 Wide&Deep：https://arxiv.org/abs/1606.07792
 
