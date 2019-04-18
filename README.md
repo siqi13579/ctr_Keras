@@ -84,13 +84,12 @@ DCN的cross部分的线性连接没有带来明显提升（相对于FNN）
 
 关于NFFM:
 
-NFFM参数量是NFM的field_size(39)倍，训练速度慢而且容易OOM，做以下两种优化
+NFFM参数量是NFM的field_size(39)倍，训练速度慢而且容易OOM，做以下两种优化,4千万样本约3个半小时跑完
 
 参数量减少：连续型特征和离散型特征不交叉
 
 速度加快：减少embedding lookup次数（这部分还可以进一步优化），减少multiply次数,增大batch size
 
-4千万样本约3个半小时跑完
 
 ## 待补充
 PNN、AFM、xDeepFM
