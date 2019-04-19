@@ -16,7 +16,7 @@ NFM：https://www.comp.nus.edu.sg/~xiangnan/papers/sigir17-nfm.pdf
 
 DeepFM：https://arxiv.org/abs/1703.04247
 
-NFFM
+NFFM：腾讯赛冠军模型
 
 
 ## 数据集
