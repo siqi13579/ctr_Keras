@@ -65,7 +65,7 @@ NFM(concat(dot,embedding))|0.45394
 NFM(sum(multiply))|0.45952
 NFM(concat(multiply))|0.45332
 NFM(conat(multiply)+first_order)|0.4713
-NFFM(concat(multiply))|0.45085
+NFFM(concat(multiply))|**0.45085**
 NFM(conat(multiply)+first_order)|待补充
 
 
