@@ -4,7 +4,7 @@
 ## 模型
 LR
 
-FNN
+FNN：http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/deep-ctr.pdf
 
 Wide&Deep：https://arxiv.org/abs/1606.07792
 
